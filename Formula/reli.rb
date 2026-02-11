@@ -6,10 +6,10 @@ class Reli < Formula
   license "MIT"
 
   depends_on :macos
-  depends_on "swift" => :build
-
+  
   def install
-    system "swift", "build", "--configuration", "release"
+    ENV["HOME"] = buildpath
+    system "xcrun", "swift", "build", "--configuration", "release", "--disable-sandbox"
     bin.install ".build/release/reli"
   end
 
