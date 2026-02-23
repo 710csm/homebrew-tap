@@ -1,8 +1,8 @@
 class Reli < Formula
   desc "AI-powered Swift refactoring linter for iOS projects"
   homepage "https://github.com/710csm/Reli"
-  url "https://github.com/710csm/Reli/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "6b90c3726d60df35374faa501cefa7230ade59d7a5d76a5ed4a7780476e6bc07"
+  url "https://github.com/710csm/Reli/archive/refs/tags/v0.4.0.tar.gz"
+  sha256 "fce518adc51bd37ed0b5b91639b5190b447cf2856aa0968e794dc66bc3db5ffd"
   license "MIT"
 
   depends_on :macos
